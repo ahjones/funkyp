@@ -1,0 +1,8 @@
+* Functional Programming
+** Who are we?
+** Why functional programming?
+   Well structured progams are easy to write and debug. Functional
+   programming makes it easier to write well structured programs.
+
+*** High order functions
+*** Lazy evaluation
