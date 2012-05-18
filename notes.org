@@ -4,5 +4,37 @@
    Well structured progams are easy to write and debug. Functional
    programming makes it easier to write well structured programs.
 
+   Avoids state, mutable data.
+
+   #+begin_quote
+   One thing that makes a programming language "more powerful" in my
+   opinion is the provision of more ways to factor programs. Or if you
+   prefer, more axes of composition. The more different ways you can
+   compose programs out of subprograms, the more powerful a language
+   is.  --Reg Braithwaite [[http://weblog.raganwald.com/2007/03/why-why-functional-programming-matters.html][Why Functional Programming Matters]]
+   #+end_quote
+
+   Better programs separate concerns.
+
 *** High order functions
 *** Lazy evaluation
+    Why only functional? Surely we can have lazyness in a
+    non-functional language? No! Side effects. Functional programming
+    frees up the programmer from thinking about order. Laziness would
+    make the imperitive programmers life harder.
+*** No assignment
+*** No change
+*** Modular
+*** Functional glue
+
+** Drawbacks
+*** Efficiency
+
+** You can use the lessons that you learn in any language
+
+** Recommended reading
+   The Little Schemer
+
+** Thanks
+Andrew Jones @andrew_jones
+Thom Leggett @thomleggett
